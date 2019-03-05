@@ -7,7 +7,7 @@ var url ='https://keeplive.online/streamIn/';
 var uid = "andy";
 
 console.log('Starting FFMPEG')
-var ffmpegString = '-i '+config.url+''
+var ffmpegString = '-i '+url+''
 ffmpegString += ' -f mpegts -c:v mpeg1video -an '+url+uid;
 ffmpegString += ' -f mpegts -c:v mpeg1video -an '+url+uid+'2';
 
