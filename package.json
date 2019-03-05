@@ -1,0 +1,24 @@
+{
+  "name": "ffmeg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "node-cmd": "^3.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sintret/ffmeg.git"
+  },
+  "author": "sintret@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sintret/ffmeg/issues"
+  },
+  "homepage": "https://github.com/sintret/ffmeg#readme"
+}
