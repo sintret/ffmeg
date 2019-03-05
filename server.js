@@ -3,7 +3,7 @@ var events = require('events');
 var spawn = child.spawn;
 
 
-var url ='https://keeplive.online/play/';
+var url ='https://keeplive.online/streamIn/';
 var uid = "andy";
 
 console.log('Starting FFMPEG')
