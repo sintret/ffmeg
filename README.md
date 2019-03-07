@@ -1,9 +1,28 @@
-pm2 startup arch
-pm2 start server.js
-pm2 save
+ sudo su
+ apt-get update
+ apt-get install ffmpeg
+ install nodejs
+  npm install -g pm2
+ install git
+ git clone ....
+ masuk ke direktory ffmeg
+ npm install
+ pm2 start server.js --name ffmeg
+ pm2 save
+ pm2 startup arch
 
-chmod +x /home/ffmeg/wakeup.sh
+
+ setelah install nodejs kemudian install pm2 di global
+ perintahnya
 
 
-crontab -e
-@reboot  /home/ffmeg/test.sh
+
+ after that buka browser
+ http://myjurnal.online/play/anggrek10
+
+
+ untuk test ffmpeg
+ sudo modprobe bcm2835-v4l2
+ ffmpeg -f v4l2 -framerate 25 -video_size 640x480 -i /dev/video0 -f mpegts -codec:v mpeg1video -s 640x480 -b:v 1000k -bf 0 http://68.183.236.92:8081/anggrek10
+
+
